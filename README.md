@@ -78,14 +78,38 @@ Heading HTML ditentukan dengan tag h1 to h6. h1 mendefinisikan judul yang paling
   * Paragraf HTML
 Paragraf HTML didefinisikan dengan <p>tag
 
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20122904.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20122843.png?raw=true)
+
   * Link HTML
 Link HTML ditentukan dengan a tag. Tujuan link ditentukan dalam href atribut.
  
-Atribut digunakan untuk memberikan informasi tambahan tentang elemen HTML.  
+Atribut digunakan untuk memberikan informasi tambahan tentang elemen HTML. 
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20122959.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20122946.png?raw=true)
 
   * gambar HTML
+    
 Gambar HTML ditentukan dengan img tag. File sumber ( src), teks alternatif ( alt), width, dan heightdisediakan sebagai atribut
 
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20123121.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20123041.png?raw=true)
+
+  * Table HTML
+    
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20123353.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20123319.png?raw=true)
+
+* blokquote HTML
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20123522.png?raw=true)
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20123505.png?raw=true)
 
 # Apa itu CSS
 CSS adalah singkatan dari Cascading Style Sheet
@@ -216,7 +240,49 @@ Gaya internal didefinisikan di dalam elemen <style>, di dalam bagian head.
 # CSS Inline
 Gaya inline dapat digunakan untuk menerapkan gaya unik pada satu elemen.
 
+perintah di CSS:
 
+* List
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124252.png?raw=true)
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124322.png?raw=true)
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124227.png?raw=true)
+
+  * Letter Spacing
+ 
+    ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124411.png?raw=true)
+
+    ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124353.png?raw=true)
+
+    * Box Model
+   
+      ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124457.png?raw=true)
+
+      ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124444.png?raw=true)
+
+      * Border Style
+     
+        ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124539.png?raw=true)
+
+        ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124554.png?raw=true)
+
+        ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124524.png?raw=text)
+
+        * Table Hover
+       
+          ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124654.png?raw=true)
+
+          ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124705.png?raw=true)
+
+          ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124638.png?raw=true)
+
+          * Text Color
+         
+            ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124743.png?raw=true)
+
+            ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124729.png?raw=true)
 
 # Apa itu JAVASCRIPT
 
@@ -245,6 +311,10 @@ document.getElementById("demo").innerHTML =
 "The value of z is: " + z;
 </script>
 
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124920.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124910.png?raw=true)
+
 Menggunakan let
 <script>
 let x = 5;
@@ -254,6 +324,10 @@ document.getElementById("demo").innerHTML =
 "The value of z is: " + z;
 </script>
 
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124850.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124838.png?raw=true)
+
 Menggunakan const
 <script>
 const x = 5;
@@ -262,6 +336,10 @@ const z = x + y;
 document.getElementById("demo").innerHTML =
 "The value of z is: " + z;
 </script>
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124951.png?raw=true)
+
+![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20124938.png?raw=true)
 
 # Pengidentifikasi / Nama JavaScript
 Pengidentifikasi adalah nama JavaScript.
@@ -300,3 +378,35 @@ JavaScript menggunakan kumpulan karakter Unicode . Unicode mencakup (hampir) sem
 Variabel JavaScript dapat menampung angka seperti 100 dan nilai teks seperti "John Doe". Dalam pemrograman, nilai teks disebut string teks.
 
 JavaScript dapat menangani banyak tipe data, tetapi untuk saat ini, angka dan string. String ditulis di dalam tanda kutip ganda atau tunggal. Angka ditulis tanpa tanda petik. Jika Anda memasukkan angka dalam tanda kutip, angka tersebut akan diperlakukan sebagai string teks.
+
+# arithmetic javascript
+
+* Tambah
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125438.png?raw=true)
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125424.png?raw=true)
+
+  *Kurang
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125533.png?raw=true)
+
+  ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125506.png?raw=true)
+
+  * Kali
+ 
+    ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125622.png?raw=true)
+
+    ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125555.png?raw=text)
+
+    * Bagi
+   
+      ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125653.png?raw=text)
+
+      ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125643.png?raw=text)
+
+      * Modulus
+     
+        ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125724.png?raw=true)
+
+        ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125712.png?raw=true)
