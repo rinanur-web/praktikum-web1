@@ -71,6 +71,9 @@ Atribut title mendefinisikan beberapa informasi tambahan tentang suatu elemen
 # Beberapa perintah di HTML:
   * Heading HTML
 Heading HTML ditentukan dengan tag h1 to h6. h1 mendefinisikan judul yang paling penting. h6 mendefinisikan judul yang paling tidak penting
+
+
+
 ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20122700.png?raw=true)
   * Paragraf HTML
 Paragraf HTML didefinisikan dengan <p>tag
