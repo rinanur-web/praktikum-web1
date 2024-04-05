@@ -31,9 +31,19 @@ Elemen p mendefinisikan paragraf
 # Apa itu Elemen HTML?
 Elemen HTML ditentukan oleh tag awal, beberapa konten, dan tag akhir.Elemen HTML adalah segalanya mulai dari tag awal hingga tag akhir. Elemen HTML dapat disarangkan (artinya elemen dapat berisi elemen lain). Semua dokumen HTML terdiri dari elemen HTML bersarang.
 
-Contoh berikut berisi empat elemen HTML ( <html>, <body>, <h1> dan <p>) 
-Elemennya html adalah elemen root dan mendefinisikan keseluruhan dokumen HTML. Ini memiliki tag awal html dan tag akhir /html. Lalu, di dalam html elemen tersebut terdapat <body> elemen. Elemen body mendefinisikan isi dokumen. Ini memiliki tag awal body dan tag akhir /body.
-Kemudian, di dalam <body>elemen tersebut terdapat dua elemen lainnya: h1 dan p. Elemen h1 mendefinisikan judul. Ini memiliki tag awal h1 dan tag akhir /h1. Elemen p mendefinisikan paragraf. Ini memiliki tag awal p dan tag akhir /p.  
+Contoh berikut berisi empat elemen HTML ( html, body, h1 dan p) 
+
+Elemen html adalah elemen root dan mendefinisikan keseluruhan dokumen HTML. 
+
+Ini memiliki tag awal html dan tag akhir /html. Lalu, di dalam html elemen tersebut terdapat body elemen.
+
+Elemen body mendefinisikan isi dokumen. Ini memiliki tag awal body dan tag akhir /body.
+
+Kemudian, di dalam body elemen tersebut terdapat dua elemen lainnya: h1 dan p. 
+
+Elemen h1 mendefinisikan judul. Ini memiliki tag awal h1 dan tag akhir /h1. Elemen p mendefinisikan paragraf. 
+
+Ini memiliki tag awal p dan tag akhir /p.  
 
 Elemen HTML yang tidak memiliki konten disebut elemen kosong.
 
