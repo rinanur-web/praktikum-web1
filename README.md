@@ -6,11 +6,11 @@ HTML menjelaskan struktur halaman Web
 HTML terdiri dari serangkaian elemen
 Elemen HTML memberi tahu browser cara menampilkan konten
 Elemen HTML memberi label pada bagian konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dll.
-Dokumen HTML sederhana:
-  !DOCTYPE html
-html
-head
-title Page Title /title
+  Dokumen HTML sederhana:
+  <!DOCTYPE html>
+<html>
+<head>
+<title> Page Title </title>
 </head>
 <body>
 <h1>My First Heading</h1>
@@ -25,7 +25,7 @@ Elemen <title>menentukan judul untuk halaman HTML (yang ditampilkan di bilah jud
 Elemen <body>mendefinisikan badan dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
 Elemen <h1>mendefinisikan judul besar
 Elemen <p>mendefinisikan paragraf
-Apa itu Elemen HTML?
+  Apa itu Elemen HTML?
 Elemen HTML ditentukan oleh tag awal, beberapa konten, dan tag akhir:
 < tagname > Konten ada di sini... < /tagname >
 Elemen HTML adalah segalanya mulai dari tag awal hingga tag akhir:
@@ -43,9 +43,22 @@ Elemen <p>mendefinisikan paragraf. Ini memiliki tag awal <p>dan tag akhir </p>
 Elemen HTML yang tidak memiliki konten disebut elemen kosong.
 Tag <br>mendefinisikan jeda baris, dan merupakan elemen kosong tanpa tag penutup  
 Tag HTML tidak membedakan huruf besar dan kecil: <P>artinya sama dengan <p>.
-Standar HTML tidak memerlukan tag huruf kecil, tetapi W3C merekomendasikan huruf kecil dalam HTML, dan memerlukan huruf kecil untuk jenis dokumen yang lebih ketat seperti XHTML  
+Standar HTML tidak memerlukan tag huruf kecil, tetapi direkomendasikan huruf kecil dalam HTML
+  Attributes HTML:
+Semua elemen HTML dapat memiliki atribut
+Atribut memberikan informasi tambahan tentang elemen
+Atribut selalu ditentukan dalam tag awal
+Atribut biasanya datang dalam pasangan nama/nilai seperti: name="value" 
+Semua elemen HTML dapat memiliki atribut
+Atribut hrefmenentukan <a>URL halaman yang dituju link tersebut
+Atribut srcmenentukan <img>jalur ke gambar yang akan ditampilkan
+Atribut widthdan heightmemberikan <img>informasi ukuran untuk gambar
+Atribut altmenyediakan <img>teks alternatif untuk sebuah gambar
+Atribut styledigunakan untuk menambahkan gaya ke suatu elemen, seperti warna, font, ukuran, dan lainnya
+Atribut langtag <html>menyatakan bahasa halaman Web
+Atribut titlemendefinisikan beberapa informasi tambahan tentang suatu elemen  
 Beberapa perintah di HTML:
-- Heading HTML
+  - Heading HTML
 Heading HTML ditentukan dengan tag <h1>to <h6>.
 <h1>mendefinisikan judul yang paling penting. <h6>mendefinisikan judul yang paling tidak penting
 input:
@@ -61,7 +74,7 @@ input:
 </body>
 </html>
 output:
-- Paragraf HTML
+  - Paragraf HTML
 Paragraf HTML didefinisikan dengan <p>tag
 input:
 <!DOCTYPE html>
@@ -72,7 +85,7 @@ input:
 </body>
 </html>
 output:
-- Link HTML
+  - Link HTML
 Link HTML ditentukan dengan <a>tag
 Tujuan link ditentukan dalam hrefatribut. 
 Atribut digunakan untuk memberikan informasi tambahan tentang elemen HTML.  
@@ -85,7 +98,7 @@ input:
 </body>
 </html>
 output:
-- gambar HTML
+  - gambar HTML
 Gambar HTML ditentukan dengan <img>tag.
 File sumber ( src), teks alternatif ( alt), width, dan heightdisediakan sebagai atribut
 input:
