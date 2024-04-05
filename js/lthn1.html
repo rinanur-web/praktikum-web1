@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            font-family: arial;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #bfc0c0;
+        }
+
+        tr:hover {
+            background-color: rgb(235, 238, 231);
+            transition: 300ms;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>JavaSript Arithmetic</h2>
+    <table>
+        <tr>
+            <th>Variable</th>
+            <th>Nilai</th>
+          </tr>
+          <tr>
+            <td>a</td>
+            <td id="a">5</td>
+          </tr>
+          <tr>
+            <td>b</td>
+            <td id="b">2</td>
+          </tr>
+          <tr>
+            <td>c</td>
+            <td id="c">1</td>
+          </tr>
+          <tr>
+            <td>hasil</td>
+            <td id="hasil" onmouseover="tampilHasil()" onmouseout="hapusHasil()"></td>
+          </tr>
+    </table>
+</center>
+<script>
+    function hitung(a, b, c){
+        return a * b-c;
+    }
+    function tampilHasil(){
+        let a = parseInt(document.getElementById('a').innerHTML);
+        let b = parseInt(document.getElementById('b').innerHTML);
+        let c = parseInt(document.getElementById('c').innerHTML);
+        let hasil= hitung(a, b, c);
+        document.getElementById("hasil").innerHTML = hasil;
+    }
+    function hapusHasil(){
+        document.getElementById("hasil").innerHTML = "";
+    }
+
+</script>
+</body>
+</html>
