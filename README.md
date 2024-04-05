@@ -6,8 +6,7 @@ HTML menjelaskan struktur halaman Web
 HTML terdiri dari serangkaian elemen
 Elemen HTML memberi tahu browser cara menampilkan konten
 Elemen HTML memberi label pada bagian konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dll.
-
-  Dokumen HTML sederhana:
+Dokumen HTML sederhana:
   <!DOCTYPE html>
 <html>
 <head>
@@ -26,8 +25,7 @@ Elemen <title>menentukan judul untuk halaman HTML (yang ditampilkan di bilah jud
 Elemen <body>mendefinisikan badan dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
 Elemen <h1>mendefinisikan judul besar
 Elemen <p>mendefinisikan paragraf
-
-  Apa itu Elemen HTML?
+Apa itu Elemen HTML?
 Elemen HTML ditentukan oleh tag awal, beberapa konten, dan tag akhir:
 < tagname > Konten ada di sini... < /tagname >
 Elemen HTML adalah segalanya mulai dari tag awal hingga tag akhir:
