@@ -195,6 +195,15 @@ Id suatu elemen bersifat unik dalam suatu halaman, sehingga pemilih id digunakan
 
 Untuk memilih elemen dengan id tertentu, tulis karakter hash (#), diikuti dengan id elemen tersebut.
 
+Contoh:
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+</style>
+
+<p id="para1">Hello World!</p>
 # Class selector
 
 selector class CSS
