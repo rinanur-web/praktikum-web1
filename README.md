@@ -1,12 +1,12 @@
 # praktikum-web1
-  Apa itu HTML?
+# Apa itu HTML?
 HTML adalah singkatan dari Hyper Text Markup Language
 HTML adalah bahasa markup standar untuk membuat halaman Web
 HTML menjelaskan struktur halaman Web
 HTML terdiri dari serangkaian elemen
 Elemen HTML memberi tahu browser cara menampilkan konten
 Elemen HTML memberi label pada bagian konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dll.
-  Dokumen HTML sederhana:
+# Dokumen HTML sederhana:
   <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +25,8 @@ Elemen <title>menentukan judul untuk halaman HTML (yang ditampilkan di bilah jud
 Elemen <body>mendefinisikan badan dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
 Elemen <h1>mendefinisikan judul besar
 Elemen <p>mendefinisikan paragraf
-  Apa itu Elemen HTML?
+  
+# Apa itu Elemen HTML?
 Elemen HTML ditentukan oleh tag awal, beberapa konten, dan tag akhir:
 < tagname > Konten ada di sini... < /tagname >
 Elemen HTML adalah segalanya mulai dari tag awal hingga tag akhir:
@@ -44,7 +45,8 @@ Elemen HTML yang tidak memiliki konten disebut elemen kosong.
 Tag <br>mendefinisikan jeda baris, dan merupakan elemen kosong tanpa tag penutup  
 Tag HTML tidak membedakan huruf besar dan kecil: <P>artinya sama dengan <p>.
 Standar HTML tidak memerlukan tag huruf kecil, tetapi direkomendasikan huruf kecil dalam HTML
-  Attributes HTML:
+  
+ # Attributes HTML:
 Semua elemen HTML dapat memiliki atribut
 Atribut memberikan informasi tambahan tentang elemen
 Atribut selalu ditentukan dalam tag awal
@@ -56,8 +58,9 @@ Atribut widthdan heightmemberikan <img>informasi ukuran untuk gambar
 Atribut altmenyediakan <img>teks alternatif untuk sebuah gambar
 Atribut styledigunakan untuk menambahkan gaya ke suatu elemen, seperti warna, font, ukuran, dan lainnya
 Atribut langtag <html>menyatakan bahasa halaman Web
-Atribut titlemendefinisikan beberapa informasi tambahan tentang suatu elemen  
-Beberapa perintah di HTML:
+Atribut titlemendefinisikan beberapa informasi tambahan tentang suatu elemen 
+
+# Beberapa perintah di HTML:
   - Heading HTML
 Heading HTML ditentukan dengan tag <h1>to <h6>.
 <h1>mendefinisikan judul yang paling penting. <h6>mendefinisikan judul yang paling tidak penting
