@@ -196,14 +196,12 @@ Id suatu elemen bersifat unik dalam suatu halaman, sehingga pemilih id digunakan
 Untuk memilih elemen dengan id tertentu, tulis karakter hash (#), diikuti dengan id elemen tersebut.
 
 Contoh:
-<style>
+
 #para1 {
   text-align: center;
   color: red;
 }
-</style>
 
-<p id="para1">Hello World!</p>
 # Class selector
 
 selector class CSS
@@ -212,11 +210,25 @@ selector class memilih elemen HTML dengan atribut kelas tertentu.
 
 Untuk memilih elemen dengan kelas tertentu, tuliskan karakter titik (.), diikuti dengan nama kelas.
 
+ contoh:
+
+ .center {
+  text-align: center;
+  color: red;
+}
+
 # Universal selector
 
 selector Universal CSS
 
 selector universal (*) memilih semua elemen HTML pada halaman.
+
+contoh:
+
+* {
+  text-align: center;
+  color: blue;
+}
 
 # Grouping selector
 
@@ -225,6 +237,18 @@ Grouping selector CSS
  grouping selector memilih semua elemen HTML dengan definisi gaya yang sama.
 
 Lihatlah kode CSS berikut (elemen h1, h2, dan p memiliki definisi gaya yang sama)
+
+contoh:
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
 
 # Tiga Cara Memasukkan CSS
 Ada tiga cara menyisipkan style sheet:
@@ -260,5 +284,81 @@ Gaya inline dapat digunakan untuk menerapkan gaya unik pada satu elemen.
 
 JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. JavaScript dapat meningkatkan fungsionalitas pada halaman web. Bahkan dengan JavaScript ini kamu bisa membuat aplikasi, tools, atau bahkan game pada web.
 
-
 Untuk menggunakan gaya sebaris, tambahkan atribut style ke elemen yang relevan. Atribut style dapat berisi properti CSS apa pun.
+
+# Variable javascript
+Dalam bahasa pemrograman, variabel digunakan untuk menyimpan nilai data.
+
+JavaScript menggunakan kata kunci var, letdan constuntuk mendeklarasikan variabel.
+
+Tanda sama dengan digunakan untuk memberikan nilai pada variabel.
+
+variabel adalah Wadah untuk Menyimpan Data
+Variabel JavaScript dapat dideklarasikan dengan 4 cara:
+
+Secara otomatis
+
+Menggunakan var
+<script>
+var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+</script>
+
+Menggunakan let
+<script>
+let x = 5;
+let y = 6;
+let z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+</script>
+
+Menggunakan const
+<script>
+const x = 5;
+const y = 6;
+const z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+</script>
+
+# Pengidentifikasi / Nama JavaScript
+Pengidentifikasi adalah nama JavaScript.
+
+Pengidentifikasi digunakan untuk memberi nama variabel dan kata kunci, serta fungsi. Aturan untuk nama resmi sama di sebagian besar bahasa pemrograman.
+
+Nama JavaScript harus dimulai dengan:
+
+Sebuah huruf (AZ atau az)
+
+Tanda dolar ($)
+
+Atau garis bawah (_)
+
+Karakter berikutnya dapat berupa huruf, angka, garis bawah, atau tanda dolar.
+
+Semua variabel JavaScript harus diidentifikasi dengan nama unik .Nama-nama unik ini disebut pengidentifikasi .Pengidentifikasi dapat berupa nama pendek (seperti x dan y) atau nama yang lebih deskriptif (usia, jumlah, totalVolume).
+
+Aturan umum untuk membuat nama variabel (pengidentifikasi unik) adalah:
+
+Nama dapat berisi huruf, angka, garis bawah, dan tanda dolar.
+
+Nama harus diawali dengan huruf.
+
+Nama juga bisa diawali dengan $ dan _ (tetapi kami tidak akan menggunakannya dalam tutorial ini).
+
+Nama peka huruf besar-kecil (y dan Y adalah variabel berbeda).
+
+Kata-kata khusus (seperti kata kunci JavaScript) tidak dapat digunakan sebagai nama.
+
+javaScript peka huruf besar-kecil. Semua pengidentifikasi JavaScript peka huruf besar-kecil . Variabel lastNamedan lastname, adalah dua variabel yang berbeda.
+
+JavaScript menggunakan kumpulan karakter Unicode . Unicode mencakup (hampir) semua karakter, tanda baca, dan simbol di dunia.
+
+# Tipe Data JavaScript
+Variabel JavaScript dapat menampung angka seperti 100 dan nilai teks seperti "John Doe". Dalam pemrograman, nilai teks disebut string teks.
+
+JavaScript dapat menangani banyak tipe data, tetapi untuk saat ini, angka dan string. String ditulis di dalam tanda kutip ganda atau tunggal. Angka ditulis tanpa tanda petik. Jika Anda memasukkan angka dalam tanda kutip, angka tersebut akan diperlakukan sebagai string teks.
