@@ -387,7 +387,7 @@ JavaScript dapat menangani banyak tipe data, tetapi untuk saat ini, angka dan st
 
   ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125424.png?raw=true)
 
-  *Kurang
+  * Kurang
 
   ![alt text](https://github.com/rinanur-web/praktikum-web1/blob/main/gambar/Screenshot%202024-04-05%20125533.png?raw=true)
 
