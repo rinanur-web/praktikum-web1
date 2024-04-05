@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(87,87,218);
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td, th {
+            border: 1px solid red;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #59ddd5;
+        }
+
+        .tr{
+        background-color: blue;
+        color: white;
+        }
+
+        tr:hover {
+            background-color: greenyellow;
+            transition: 300ms;
+            font-weight: bold;
+            font-size: 120%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Daftar Mahasiswa</h1>
+        <table>
+            <tr class="tr">
+                <th>Nama</th>
+                <th>Program Studi</th>
+                <th>Kelas</th>
+              </tr>
+              <tr>
+                <td>Jhon Doe</td>
+                <td>Teknik Informatika</td>
+                <td>A-01</td>
+              </tr>
+              <tr>
+                <td>Jane smith</td>
+                <td>Sistem Informasi</td>
+                <td>B-02</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Teknik komputer</td>
+                <td>A-03</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Teknik elektro</td>
+                <td>C-01</td>
+              </tr>
+              <tr>
+                <td>emly</td>
+                <td>Manajemen Informatika</td>
+                <td>D-02</td>
+              </tr>
+        </table>
+    </center>
+</body>
+</html>
