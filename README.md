@@ -7,10 +7,10 @@ HTML terdiri dari serangkaian elemen
 Elemen HTML memberi tahu browser cara menampilkan konten
 Elemen HTML memberi label pada bagian konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dll.
 Dokumen HTML sederhana:
-  <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
+  !DOCTYPE html
+html
+head
+title Page Title /title
 </head>
 <body>
 <h1>My First Heading</h1>
