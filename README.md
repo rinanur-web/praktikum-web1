@@ -237,12 +237,19 @@ File .css eksternal tidak boleh berisi tag HTML apa pun.
 
 Berikut tampilan file "mystyle.css"
 
-# CSS dalaman
+# CSS Internal
 Lembar gaya internal dapat digunakan jika satu halaman HTML memiliki gaya yang unik.
 
 Gaya internal didefinisikan di dalam elemen <style>, di dalam bagian head.
 
 # CSS Inline
 Gaya inline dapat digunakan untuk menerapkan gaya unik pada satu elemen.
+
+
+
+# Apa itu JAVASCRIPT
+
+JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. JavaScript dapat meningkatkan fungsionalitas pada halaman web. Bahkan dengan JavaScript ini kamu bisa membuat aplikasi, tools, atau bahkan game pada web.
+
 
 Untuk menggunakan gaya sebaris, tambahkan atribut style ke elemen yang relevan. Atribut style dapat berisi properti CSS apa pun.
