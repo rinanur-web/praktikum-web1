@@ -146,3 +146,103 @@ input:
 </body>
 </html>
 output:
+
+
+
+# Apa itu CSS
+CSS adalah singkatan dari Cascading Style Sheet
+
+CSS menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau di media lain
+
+CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus
+
+Stylesheet eksternal disimpan dalam file CSS
+
+CSS digunakan untuk menentukan gaya halaman web Anda, termasuk desain, tata letak, dan variasi tampilan untuk berbagai perangkat dan ukuran layar.
+
+# sintaks CSS:
+
+selector menunjuk ke elemen HTML yang ingin Anda gaya.
+
+Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan oleh titik koma.
+
+Setiap deklarasi menyertakan nama properti CSS dan nilainya, dipisahkan oleh titik dua.
+
+Beberapa deklarasi CSS dipisahkan dengan titik koma, dan blok deklarasi diapit oleh kurung kurawal.
+
+contohnya:
+
+p{
+  color: red;
+  text-align: center;
+  }
+
+penjelasan:
+
+padalah pemilih dalam CSS (menunjuk ke elemen HTML yang ingin Anda gaya: <p>).
+
+coloradalah properti, dan redmerupakan nilai properti
+
+text-alignadalah properti, dan centermerupakan nilai properti
+
+# ID selector
+
+selector ID CSS
+
+selector id menggunakan atribut id dari elemen HTML untuk memilih elemen tertentu.
+
+Id suatu elemen bersifat unik dalam suatu halaman, sehingga pemilih id digunakan untuk memilih satu elemen unik!
+
+Untuk memilih elemen dengan id tertentu, tulis karakter hash (#), diikuti dengan id elemen tersebut.
+
+# Class selector
+
+selector class CSS
+
+selector class memilih elemen HTML dengan atribut kelas tertentu.
+
+Untuk memilih elemen dengan kelas tertentu, tuliskan karakter titik (.), diikuti dengan nama kelas.
+
+# Universal selector
+
+selector Universal CSS
+
+selector universal (*) memilih semua elemen HTML pada halaman.
+
+# Grouping selector
+
+Grouping selector CSS
+
+ grouping selector memilih semua elemen HTML dengan definisi gaya yang sama.
+
+Lihatlah kode CSS berikut (elemen h1, h2, dan p memiliki definisi gaya yang sama)
+
+# Tiga Cara Memasukkan CSS
+Ada tiga cara menyisipkan style sheet:
+
+CSS eksternal
+
+CSS Internal
+
+CSS Inline
+
+# CSS eksternal
+Dengan style sheet eksternal, Anda dapat mengubah tampilan seluruh situs web hanya dengan mengubah satu file!
+
+Setiap halaman HTML harus menyertakan referensi ke file style sheet eksternal di dalam elemen <link>, di dalam bagian head.
+
+Style sheet eksternal dapat ditulis dalam editor teks apa pun, dan harus disimpan dengan ekstensi .css.
+
+File .css eksternal tidak boleh berisi tag HTML apa pun.
+
+Berikut tampilan file "mystyle.css"
+
+# CSS dalaman
+Lembar gaya internal dapat digunakan jika satu halaman HTML memiliki gaya yang unik.
+
+Gaya internal didefinisikan di dalam elemen <style>, di dalam bagian head.
+
+# CSS Inline
+Gaya inline dapat digunakan untuk menerapkan gaya unik pada satu elemen.
+
+Untuk menggunakan gaya sebaris, tambahkan atribut style ke elemen yang relevan. Atribut style dapat berisi properti CSS apa pun.
